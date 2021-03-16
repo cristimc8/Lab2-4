@@ -33,8 +33,8 @@ int main() {
 	free(repo);
 	free(ui);
 
-	_CrtDumpMemoryLeaks();
-	//printf("%d", _CrtDumpMemoryLeaks());
+	//_CrtDumpMemoryLeaks();
+	printf("%d", _CrtDumpMemoryLeaks());
 	
 	return 0;
 }

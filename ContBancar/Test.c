@@ -174,8 +174,6 @@ void runServiceTests() {
 	vector_destroy(sorted);
 	free(sorted);
 
-
-
 	// Dealocari
 
 	service_destroy(service);

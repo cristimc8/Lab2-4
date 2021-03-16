@@ -52,8 +52,7 @@ int vector_swap(Vector* vector, unsigned int pos1, unsigned int pos2) {
 		printf("Error while swapping Vector Elements -> Position cannot be greater than Vector's length!");
 		return -1;
 	}*/
-	Element aux;
-	aux = (Element)malloc(sizeof(Element));
+	Element* aux;
 	aux = vector->elements[pos1];
 	vector->elements[pos1] = vector->elements[pos2];
 	vector->elements[pos2] = aux;
